@@ -20,6 +20,8 @@ namespace Prova.Controllers
         {
             try
             {
+                /*
+                 * O JSON do REQUEST deve ter o mesmo corpo da classe em questão, no caso Data.ContasAReceber */
                 var body = await this.GetBody<Data.ContasAReceber>();
 
                 if (body == null)
@@ -28,13 +30,26 @@ namespace Prova.Controllers
 
                 Data.ContasAReceber cr = new Data.ContasAReceber();
 
-
-                Data.Usuario usuario = new Data.Usuario();
-
-                List<Data.Base> listaUsuarios = Utils.Utils.listaDados(0, usuario, 0, null);
+                /* ID do Contas A Receber que desejo detalhar, obtido do front-end, */
+                cr.idContasAReceber = body.idContasAReceber;
 
 
-                return UtilsGestao.UtilsApi.Retorno(body);
+                /* Instanciamos a classe NameValue, para passar parâmetros adicionais a consulta */
+                List<Utils.NameValue> _params = new List<Utils.NameValue>();
+
+
+                /*
+                 * Chama a função sr.consultar(), passando:
+                 * classeBase
+                 * 
+                 * Irá retornar somente um registro, ou seja, o registro passado na variável body.idContasAReceber
+                 */
+                cr = (Data.ContasAReceber)sr.consultar(cr);
+
+                /*
+                 * Utilizamos a função Retorno, para transformar o objeto em JSON, respeitando suas tipagens.
+                 */
+                return UtilsGestao.UtilsApi.Retorno(cr);
             }
             catch (Exception ex)
             {

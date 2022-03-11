@@ -149,7 +149,7 @@ namespace Utils
 
         public static string GetServerIP()
         {
-            Hashtable config = getSqlConfigs("qlthlc06");
+            Hashtable config = getSqlConfigs("");
             IPAddress ip = null;
             try
             {
@@ -541,29 +541,7 @@ FROM
 
         public static string getSqlConfigs()
         {
-            string retorno = "",
-                   dir = AppDomain.CurrentDomain.BaseDirectory;
-
-            bool IsdotnetCore = false;
-            if (File.Exists(dir + "\\GestaoWeb.dll"))
-                IsdotnetCore = true;
-
-            if (!dir.Contains("bin") && !dir.Contains("api") && !IsdotnetCore)
-                dir = dir + "bin\\";
-            else if (dir.Contains("api") && !IsdotnetCore)
-                dir = Path.GetDirectoryName(Path.GetDirectoryName(dir)) + "\\bin\\";
-
-            if (File.Exists(dir + @"config.qlt"))
-            {
-                string encoded = File.ReadAllText(dir + @"config.qlt");
-                string decoded = Security.DecryptRijndael(Security.Base64Decode(encoded), Security.getInputKey());
-                retorno = "workstation id=WorkingStation;packet size=4096;user id=" + decoded.Split(';')[1].Trim() + ";data source=" + decoded.Split(';')[0].Trim() + ";persist security info=False;initial catalog=" + decoded.Split(';')[3].Trim() + ";password=" + decoded.Split(';')[2].Trim() + ";MultipleActiveResultSets=True";
-            }
-            else
-            {
-                criarConfigSql();
-                retorno = getSqlConfigs();
-            }
+            string retorno = "workstation id=WorkingStation;packet size=4096;user id=hlc;data source=sqlserver.qualitysys.com.br;persist security info=False;initial catalog=taquaritinga;password=hlc;MultipleActiveResultSets=True";
             return retorno;
         }
 
@@ -602,7 +580,7 @@ FROM
 
         public static System.Collections.Hashtable getSqlConfigs(string password)
         {
-            if (password != "qlthlc06")
+            if (password != "")
                 return null;
             else { }
 
@@ -625,7 +603,7 @@ FROM
             else
             {
                 criarConfigSql();
-                retorno = getSqlConfigs("qlthlc06");
+                retorno = getSqlConfigs("");
             }
 
             return retorno;
@@ -3694,32 +3672,7 @@ WHERE
         {
 
             string[] senhas = new string[26];
-            senhas[0] = "202101QLTADM0121";
-            senhas[1] = "202102MASTERFEV@";
-            senhas[2] = "202103ADMQLT0321";
-            senhas[3] = "202104SUPORTEABR";
-            senhas[4] = "202105ADM0521QLT";
-            senhas[5] = "202106MESTRE0621";
-            senhas[6] = "202107QLTADM007!";
-            senhas[7] = "202108SUPORTE@08";
-            senhas[8] = "202109QUALITY09%";
-            senhas[9] = "202110QLTOUT21##";
-            senhas[10] = "202111ADM@SUPORT";
-            senhas[11] = "202112SUPORT@DEZ";
-            senhas[12] = "202201!QLTJAN21!";
-            senhas[13] = "202202QUALITYFEV";
-            senhas[14] = "202203SENHAMAR22";
-            senhas[15] = "202204@ADMINABR@";
-            senhas[16] = "202205SUPORTMAI$";
-            senhas[17] = "202206QLTADM06++";
-            senhas[18] = "202207@ADMQLT07@";
-            senhas[19] = "202208MESTRE08@!";
-            senhas[20] = "202209SET22@AQLT";
-            senhas[21] = "202210QQLT@OUT22";
-            senhas[22] = "202211@GERALNOV!";
-            senhas[23] = "202212NATAL@QLT!";
-            senhas[24] = "202011SUPORTENOV";
-            senhas[25] = "202012ADMSUPORTE";
+            senhas[0] = "202203SENHAMAR22";
 
             DateTime dataAtual = DateTime.Now;
             if (!String.IsNullOrEmpty(data))

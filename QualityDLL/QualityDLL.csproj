@@ -519,7 +519,6 @@
     <Compile Include="Exceptions\TituloException.cs" />
     <Compile Include="Exceptions\SocioNotFount.cs" />
     <Compile Include="Financeiro\JurosMulta.cs" />
-    <Compile Include="GenerateSources.cs" />
     <Compile Include="Report\Base.cs" />
     <Compile Include="Service.cs" />
     <Compile Include="Tables\ApiCredencial.cs" />
