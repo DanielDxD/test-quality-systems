@@ -109,8 +109,10 @@ Normalmente, os controllers herdam da classe **ControllerBase**, porém em nosso
 
 Exemplo da utilização de um Controller para listagem de vários dados:
 ```c#
-	[Route("api/[controller]")]
-    [ApiController]
+	[
+        Route("api/[controller]"),
+        ApiController
+    ]
     public class ContasAReceberController : ControllerQuality
     {
         [
@@ -167,8 +169,10 @@ Exemplo da utilização de um Controller para listagem de vários dados:
 
 Exemplo da utilização de um Controller para listagem de um único dado:
 ```c#
-	[Route("api/[controller]")]
-    [ApiController]
+	[
+        Route("api/[controller]"),
+        ApiController
+    ]
     public class ContasAReceberController : ControllerQuality
     {
         [
