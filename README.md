@@ -115,7 +115,7 @@ Exemplo da utilização de um Controller para listagem de vários dados:
     ]
     public class ContasAReceberController : ControllerQuality
     {
-        [
+    [
             Route(""),
             HttpGet
         ]
