@@ -10,7 +10,7 @@
  2. Conexão com banco de dados SQL Server.
 
 
-# Objetivo do test:
+# Objetivo do teste:
 
  - Criar um Controller do tipo POST, que servirá  como uma API de busca de resultados.
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
