@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AnDQwYRv0EJlJ5mi9q9ax+Ayt35/iFKzdLSg4uiW8Ho0JFc8xQTEqDKNOaGxBz7PbtLwABSms4xQp2XiIUsdaw==",
+  "dgSpecHash": "gCBqM4y3x7YG1oiibZxuTbTJHnCZotbi8K9qTV1YvlNMJjS4iT/4R0FNHx2nU9qI28Ob9CpTunkgEnign+U6HQ==",
   "success": true,
   "projectFilePath": "G:\\sistema_quality_curtt\\Prova\\Prova.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

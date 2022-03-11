@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "NoTGku+PPEJak9sASXE5u3ILBvxiTcqDNNr5mgoex1wN8ZQLX/Cs1LxH7HH9n8DDTowqIYQZ8Zu+IxopqIvXrQ==",
+  "success": true,
+  "projectFilePath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduardo\\.nuget\\packages\\acbr.net.core\\1.2.5\\acbr.net.core.1.2.5.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\acbr.net.dfe.core\\1.2.8.3\\acbr.net.dfe.core.1.2.8.3.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\acbr.net.sat\\1.2.8.1\\acbr.net.sat.1.2.8.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\excellibrary\\1.2011.7.31\\excellibrary.1.2011.7.31.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\ionic.zip\\1.9.1.8\\ionic.zip.1.9.1.8.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\itext7\\7.1.16\\itext7.7.1.16.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\itext7.pdfhtml\\3.0.5\\itext7.pdfhtml.3.0.5.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\itextsharp-lgpl\\4.1.6\\itextsharp-lgpl.4.1.6.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\nreco.pdfgenerator\\1.1.15\\nreco.pdfgenerator.1.1.15.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\sharpcompress\\0.28.3\\sharpcompress.0.28.3.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.servicemodel.http\\4.8.1\\system.servicemodel.http.4.8.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.servicemodel.primitives\\4.8.1\\system.servicemodel.primitives.4.8.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

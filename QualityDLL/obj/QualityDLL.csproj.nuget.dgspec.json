@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj": {}
+  },
+  "projects": {
+    "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
+        "projectName": "QualityDLL",
+        "projectPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\FastReports\\FastReport.Net\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "ACBr.Net.Sat": {
+              "target": "Package",
+              "version": "[1.2.8.1, )"
+            },
+            "ExcelLibrary": {
+              "target": "Package",
+              "version": "[1.2011.7.31, )"
+            },
+            "Ionic.Zip": {
+              "target": "Package",
+              "version": "[1.9.1.8, )"
+            },
+            "NReco.PdfGenerator": {
+              "target": "Package",
+              "version": "[1.1.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SharpCompress": {
+              "target": "Package",
+              "version": "[0.28.3, )"
+            },
+            "iTextSharp-LGPL": {
+              "target": "Package",
+              "version": "[4.1.6, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.16, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>QualityDLL.csproj</id>
+    <version>1.0.0</version>
+    <authors>Eduardo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/duduccosta/QualityDLL</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/duduccosta/QualityDLL/master/favicon.ico?token=GHSAT0AAAAAABQM4DOJDL3KTD2O7H4WVIGCYRLSFAQ</iconUrl>
+    <description>QualityDLL Pacote de DLLs</description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Quality QualitySystems</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="SampleDependency" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
