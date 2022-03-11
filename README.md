@@ -77,7 +77,7 @@ Para aplicar filtros, basta instanciar as propriedades da classe, por exemplo:
 /* Deve ser instaciada a classe Data da respectiva tabela */
 Data.Usuario usuario = new Data.Usuario
 {
-	nomeUsuario = 'teste'
+	nomeUsuario = "teste"
 };
 
 /* Chamar a classe função listaDados */
@@ -115,7 +115,7 @@ Exemplo da utilização de um Controller para listagem de vários dados:
     ]
     public class ContasAReceberController : ControllerQuality
     {
-        [
+    [
             Route(""),
             HttpGet
         ]
