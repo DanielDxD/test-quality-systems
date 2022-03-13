@@ -12,7 +12,7 @@
 
 # Objetivo do teste:
 
- - Criar um Controller do tipo POST, que servirá  como uma API de busca de resultados.
+ - Criar uma action do tipo POST, que servirá  como uma API de busca de resultados.
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
 	 	 - Aplicar os filtros:
 		 	 - descricao
@@ -20,7 +20,7 @@
  - Limitar somente 10 registros.
  - Retornar um array com todos os registros.
 ---------------------------
- - Criar um Controller do tipo GET, que servirá como uma API de detalhamento de registro.
+ - Criar uma action do tipo GET, que servirá como uma API de detalhamento de registro.
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
 		 	 - idContaPagamento
  - Retornar um objeto com os dados do registro em questão.
