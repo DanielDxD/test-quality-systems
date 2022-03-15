@@ -47,7 +47,7 @@
 
 # DOCUMENTAÇÃO
 
-Adicionar as seguintes dependências via NuGET:
+Adicionar as seguintes dependências no projeto QualityDLL via NuGET:
 - System.Data.sqlclient
 - Newtonsoft.Json
 
