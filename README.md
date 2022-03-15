@@ -47,6 +47,8 @@
 
 # DOCUMENTAÇÃO
 
+- Visual Studio 2019
+
 Adicionar as seguintes dependências no projeto QualityDLL via NuGET:
 - System.Data.sqlclient
 - Newtonsoft.Json
