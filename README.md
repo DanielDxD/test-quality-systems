@@ -145,7 +145,7 @@ Seu retorno é um array do mesmo tipo do parâmetro **classeBase**.
 	 - **Order** -> Responsável pela ordenação dos registros
 	 - **Mode** -> Responsável por fazer uma consulta mais simplificada, basta passar o valor **Roll**.
 	 - **Filter** -> Responsável por passar filtros em que não seja possível fazer diretamente na classe, como intervalos, validação de valores booleanos. O valor deste parâmetro é em SQL, ou seja, será transmitido automaticamente para a cláusula WHERE da consulta
-	 - **Offset** -> Responsável por determinar o início dos registros, útil para paginação de dados, basta passar o nome **startRowindex** e o valor do tipo *int* no atributo **Value**.
+	 - **Offset** -> Responsável por determinar o início dos registros, útil para paginação de dados, basta passar o valor do tipo *int* no atributo **Value**.
 	```c#
 	 _params.Add(new Utils.NameValue { name = "Offset", value = 0 });
 	 ```
