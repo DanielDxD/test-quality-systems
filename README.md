@@ -10,7 +10,7 @@
  2. Conexão com banco de dados SQL Server.
 
 
-# Objetivo do teste:
+# Objetivo do teste (Vaga Jr.):
 
  - Criar uma action do tipo POST, que servirá  como uma API de busca de resultados.
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
@@ -19,6 +19,24 @@
 		 	 - idEmpresa
  - Limitar somente 10 registros.
  - Retornar um array com todos os registros.
+---------------------------
+ - Criar uma action do tipo GET, que servirá como uma API de detalhamento de registro.
+ - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
+		 	 - idContaPagamento
+ - Retornar um objeto com os dados do registro em questão.
+
+
+# Objetivo do teste (Vaga Pleno):
+
+ - Criar uma action do tipo POST, que servirá  como uma API de busca de resultados.
+ - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
+	 	 - Aplicar os filtros:
+		 	 - descricao
+		 	 - idEmpresa
+ - Limitar somente 10 registros.
+ - Retornar um array com todos os registros.
+
+ - Neste mesmo controller, a função UtilsApi.Grid().FillFormComponentFields() para a classe Data.ContaPagamento() não está retornando o parâmetro "descrição" para todas as colunas, ou seja, a coluna é adicionada no array de colunas, porém sua descrição vem em branco. O candidato deverá debugar o programa para poder encontrar o erro e propor uma solução para este problema. (Este problema em ambiente de produção já está solucionado).
 ---------------------------
  - Criar uma action do tipo GET, que servirá como uma API de detalhamento de registro.
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
@@ -153,10 +171,10 @@ Exemplo da utilização de um Controller para listagem de vários dados:
                     throw new Exception("Parâmetros incorretos!");
                 else { }
 
-                Data.ContasAReceber cr = new Data.ContasAReceber();
+                Data.ContasAReceber key = new Data.ContasAReceber();
 
                 /* ID empresa que vem do front-end, */
-                cr.idEmpresa = this.idEmpresa;
+                key.idEmpresa = this.idEmpresa;
 
                 /* Instanciamos a classe NameValue, para passar parâmetros adicionais a consulta */
                 List<Utils.NameValue> _params = new List<Utils.NameValue>();
@@ -174,12 +192,26 @@ Exemplo da utilização de um Controller para listagem de vários dados:
                  * numero de linhas
                  * parâmetros adicionais da consulta
                  */
-                List<Data.Base> results = Utils.Utils.listaDados(this.idEmpresa, cr, this.maxRowsPerPage, _params);
+                List<Data.Base> results = Utils.Utils.listaDados(this.idEmpresa, key, this.maxRowsPerPage, _params);
 
-				/*
+		/* Criamos um novo objeto para retorno ao front-end */
+		var obj = new
+                {
+                    totalRows = Utils.Utils.getCount(idEmpresa, key, _parameters),
+                    maxRowsPerPage,
+                    startRowIndex,
+                    results,
+		    
+		    /* A função FillFormComponentFields é responsável por gerar um GRID automático, de acordo com a estrutura da classe em questão. 
+		    * Esse grid é enviado ao front end e transformado em HTML.
+		    */
+                    grid = GenerateGrid ? new UtilsApi.Grid().FillFormComponentFields(key.GetType(), false) : new GridModel { }
+                };
+
+		/*
                  * Utilizamos a função Retorno, para transformar o objeto em JSON, respeitando suas tipagens.
                  */
-                return UtilsGestao.UtilsApi.Retorno(results);
+                return UtilsGestao.UtilsApi.Retorno(obj);
             }
             catch (Exception ex)
             {
