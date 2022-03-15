@@ -46,6 +46,11 @@
  
 
 # DOCUMENTAÇÃO
+
+Adicionar as seguintes dependências via NuGET:
+- System.Data.sqlclient
+- Newtonsoft.Json
+
 # Classes Auxiliares
 
  1. Utils.cs
