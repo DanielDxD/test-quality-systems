@@ -9,7 +9,7 @@
  1. Projeto definido em WebAPI (.Net Core 5).
  2. Conexão com banco de dados SQL Server.
 
-
+<strike>
 # Objetivo do teste (Vaga Jr.):
 
  - Criar uma action do tipo POST, que servirá  como uma API de busca de resultados.
@@ -24,7 +24,7 @@
  - Pegar dados da tabela contaPagamento, referenciada pela classe Data.ContaPagamento().
 		 	 - idContaPagamento
  - Retornar um objeto com os dados do registro em questão.
-
+</strike>
 
 # Objetivo do teste (Vaga Pleno):
 
