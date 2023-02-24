@@ -51,3 +51,45 @@ G:\sistema_quality_curtt\Prova\QualityDLL\obj\Debug\QualityDLL.csproj.CopyComple
 G:\sistema_quality_curtt\Prova\QualityDLL\obj\Debug\QualityDLL.dll
 G:\sistema_quality_curtt\Prova\QualityDLL\obj\Debug\QualityDLL.pdb
 G:\sistema_quality_curtt\Prova\QualityDLL\obj\Debug\QualityDLL.csproj.AssemblyReference.cache
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\obj\Debug\QualityDLL.csproj.AssemblyReference.cache
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\obj\Debug\QualityDLL.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\obj\Debug\QualityDLL.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\obj\Debug\QualityDLL.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\QualityDLL.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\QualityDLL.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\QualityDLL.tlb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\ACBr.Net.Core.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\ACBr.Net.DFe.Core.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\ACBr.Net.Sat.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Common.Logging.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Common.Logging.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Common.Logging.Core.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Common.Logging.Core.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\ExcelLibrary.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Ionic.Zip.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.barcodes.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.forms.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.io.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.kernel.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.layout.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.pdfa.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.sign.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.svg.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\itext.html2pdf.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\iTextSharp.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\NReco.PdfGenerator.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\SharpCompress.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Buffers.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Memory.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.ServiceModel.Http.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.ServiceModel.Http.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\obj\Debug\QualityDLL.csproj.CopyComplete
+C:\Users\Daniel Lopes\dn5\test-quality\Prova\QualityDLL\bin\Debug\System.Data.SqlClient.dll

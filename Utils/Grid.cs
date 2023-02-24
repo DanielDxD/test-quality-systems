@@ -13,7 +13,7 @@ namespace Prova.UtilsApi
         private static System.Xml.XmlNode FieldAttributes;
         public GridModel FillFormComponentFields(Type dataType, Boolean showCheckBox)
         {
-            if (dataType.Name != "Base")
+            if (dataType.Name == "Base")
             {
 
                 GridModel grid = new GridModel();
@@ -29,7 +29,7 @@ namespace Prova.UtilsApi
                     foreach (String _fieldName in _fields)
                     {
                         if (_fieldName.StartsWith("."))
-                        {
+                        {  
                             Type _objClass = dataType;
                             __fieldName = _fieldName;
 

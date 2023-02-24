@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.1": {
+    ".NETFramework,Version=v4.8": {
       "ACBr.Net.Core/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -10,10 +10,14 @@
           "System.configuration"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.DFe.Core/1.2.8.3": {
@@ -28,10 +32,14 @@
           "System.ServiceModel"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.Sat/1.2.8.1": {
@@ -44,10 +52,14 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Common.Logging/3.4.1": {
@@ -56,10 +68,14 @@
           "Common.Logging.Core": "3.4.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Common.Logging.Core/3.4.1": {
@@ -68,10 +84,14 @@
           "Microsoft.CSharp": "4.0.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         }
       },
       "ExcelLibrary/1.2011.7.31": {
@@ -99,26 +119,62 @@
           "Portable.BouncyCastle": "1.8.9"
         },
         "compile": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         }
       },
       "itext7.pdfhtml/3.0.5": {
@@ -128,10 +184,14 @@
           "itext7": "7.1.16"
         },
         "compile": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         }
       },
       "iTextSharp-LGPL/4.1.6": {
@@ -158,28 +218,40 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NReco.PdfGenerator/1.1.15": {
         "type": "package",
         "compile": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SharpCompress/0.28.3": {
@@ -199,10 +271,42 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -213,10 +317,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -226,10 +334,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -238,10 +350,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Http/4.8.1": {
@@ -257,7 +373,9 @@
           "ref/net461/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Http.dll": {}
+          "lib/net461/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.8.1": {
@@ -270,7 +388,9 @@
           "ref/net461/System.ServiceModel.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Primitives.dll": {}
+          "lib/net461/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.Text.Encoding.CodePages/5.0.0": {
@@ -283,10 +403,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {
@@ -296,7 +420,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.7.1/win": {
+    ".NETFramework,Version=v4.8/win": {
       "ACBr.Net.Core/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -305,10 +429,14 @@
           "System.configuration"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.DFe.Core/1.2.8.3": {
@@ -323,10 +451,14 @@
           "System.ServiceModel"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.Sat/1.2.8.1": {
@@ -339,10 +471,14 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Common.Logging/3.4.1": {
@@ -351,10 +487,14 @@
           "Common.Logging.Core": "3.4.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Common.Logging.Core/3.4.1": {
@@ -363,10 +503,14 @@
           "Microsoft.CSharp": "4.0.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         }
       },
       "ExcelLibrary/1.2011.7.31": {
@@ -394,26 +538,62 @@
           "Portable.BouncyCastle": "1.8.9"
         },
         "compile": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         }
       },
       "itext7.pdfhtml/3.0.5": {
@@ -423,10 +603,14 @@
           "itext7": "7.1.16"
         },
         "compile": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         }
       },
       "iTextSharp-LGPL/4.1.6": {
@@ -453,28 +637,40 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NReco.PdfGenerator/1.1.15": {
         "type": "package",
         "compile": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SharpCompress/0.28.3": {
@@ -494,10 +690,32 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -508,10 +726,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -521,10 +743,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -533,10 +759,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Http/4.8.1": {
@@ -552,7 +782,9 @@
           "ref/net461/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Http.dll": {}
+          "lib/net461/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.8.1": {
@@ -565,7 +797,9 @@
           "ref/net461/System.ServiceModel.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Primitives.dll": {}
+          "lib/net461/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.Text.Encoding.CodePages/5.0.0": {
@@ -578,14 +812,18 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
-    ".NETFramework,Version=v4.7.1/win-x64": {
+    ".NETFramework,Version=v4.8/win-x64": {
       "ACBr.Net.Core/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -594,10 +832,14 @@
           "System.configuration"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.DFe.Core/1.2.8.3": {
@@ -612,10 +854,14 @@
           "System.ServiceModel"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.Sat/1.2.8.1": {
@@ -628,10 +874,14 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Common.Logging/3.4.1": {
@@ -640,10 +890,14 @@
           "Common.Logging.Core": "3.4.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Common.Logging.Core/3.4.1": {
@@ -652,10 +906,14 @@
           "Microsoft.CSharp": "4.0.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         }
       },
       "ExcelLibrary/1.2011.7.31": {
@@ -683,26 +941,62 @@
           "Portable.BouncyCastle": "1.8.9"
         },
         "compile": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         }
       },
       "itext7.pdfhtml/3.0.5": {
@@ -712,10 +1006,14 @@
           "itext7": "7.1.16"
         },
         "compile": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         }
       },
       "iTextSharp-LGPL/4.1.6": {
@@ -742,28 +1040,40 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NReco.PdfGenerator/1.1.15": {
         "type": "package",
         "compile": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SharpCompress/0.28.3": {
@@ -783,10 +1093,32 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -797,10 +1129,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -810,10 +1146,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -822,10 +1162,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Http/4.8.1": {
@@ -841,7 +1185,9 @@
           "ref/net461/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Http.dll": {}
+          "lib/net461/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.8.1": {
@@ -854,7 +1200,9 @@
           "ref/net461/System.ServiceModel.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Primitives.dll": {}
+          "lib/net461/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.Text.Encoding.CodePages/5.0.0": {
@@ -867,14 +1215,18 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
-    ".NETFramework,Version=v4.7.1/win-x86": {
+    ".NETFramework,Version=v4.8/win-x86": {
       "ACBr.Net.Core/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -883,10 +1235,14 @@
           "System.configuration"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Core.dll": {}
+          "lib/net452/ACBr.Net.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.DFe.Core/1.2.8.3": {
@@ -901,10 +1257,14 @@
           "System.ServiceModel"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.DFe.Core.dll": {}
+          "lib/net452/ACBr.Net.DFe.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "ACBr.Net.Sat/1.2.8.1": {
@@ -917,10 +1277,14 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net452/ACBr.Net.Sat.dll": {}
+          "lib/net452/ACBr.Net.Sat.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Common.Logging/3.4.1": {
@@ -929,10 +1293,14 @@
           "Common.Logging.Core": "3.4.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.dll": {}
+          "lib/net40/Common.Logging.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Common.Logging.Core/3.4.1": {
@@ -941,10 +1309,14 @@
           "Microsoft.CSharp": "4.0.1"
         },
         "compile": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         },
         "runtime": {
-          "lib/net40/Common.Logging.Core.dll": {}
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
         }
       },
       "ExcelLibrary/1.2011.7.31": {
@@ -972,26 +1344,62 @@
           "Portable.BouncyCastle": "1.8.9"
         },
         "compile": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.barcodes.dll": {},
-          "lib/net45/itext.forms.dll": {},
-          "lib/net45/itext.io.dll": {},
-          "lib/net45/itext.kernel.dll": {},
-          "lib/net45/itext.layout.dll": {},
-          "lib/net45/itext.pdfa.dll": {},
-          "lib/net45/itext.sign.dll": {},
-          "lib/net45/itext.styledxmlparser.dll": {},
-          "lib/net45/itext.svg.dll": {}
+          "lib/net45/itext.barcodes.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.forms.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.io.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.kernel.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.layout.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.pdfa.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.sign.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.styledxmlparser.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/itext.svg.dll": {
+            "related": ".xml"
+          }
         }
       },
       "itext7.pdfhtml/3.0.5": {
@@ -1001,10 +1409,14 @@
           "itext7": "7.1.16"
         },
         "compile": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/itext.html2pdf.dll": {}
+          "lib/net45/itext.html2pdf.dll": {
+            "related": ".xml"
+          }
         }
       },
       "iTextSharp-LGPL/4.1.6": {
@@ -1031,28 +1443,40 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NReco.PdfGenerator/1.1.15": {
         "type": "package",
         "compile": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/net20/NReco.PdfGenerator.dll": {}
+          "lib/net20/NReco.PdfGenerator.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SharpCompress/0.28.3": {
@@ -1072,10 +1496,32 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -1086,10 +1532,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -1099,10 +1549,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -1111,10 +1565,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Http/4.8.1": {
@@ -1130,7 +1588,9 @@
           "ref/net461/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Http.dll": {}
+          "lib/net461/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.8.1": {
@@ -1143,7 +1603,9 @@
           "ref/net461/System.ServiceModel.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net461/System.ServiceModel.Primitives.dll": {}
+          "lib/net461/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.Text.Encoding.CodePages/5.0.0": {
@@ -1156,10 +1618,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+          "lib/net461/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -1514,6 +1980,92 @@
         "version.txt"
       ]
     },
+    "System.Data.SqlClient/4.8.5": {
+      "sha512": "fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.5.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Memory/4.5.3": {
       "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package",
@@ -1756,56 +2308,51 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.1": [
+    ".NETFramework,Version=v4.8": [
       "ACBr.Net.Sat >= 1.2.8.1",
       "ExcelLibrary >= 1.2011.7.31",
       "Ionic.Zip >= 1.9.1.8",
       "NReco.PdfGenerator >= 1.1.15",
       "Newtonsoft.Json >= 13.0.1",
       "SharpCompress >= 0.28.3",
+      "System.Data.SqlClient >= 4.8.5",
       "iTextSharp-LGPL >= 4.1.6",
       "itext7 >= 7.1.16",
       "itext7.pdfhtml >= 3.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eduardo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Daniel Lopes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj",
       "projectName": "QualityDLL",
-      "projectPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
-      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\obj\\",
+      "projectPath": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj",
+      "packagesPath": "C:\\Users\\Daniel Lopes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Daniel Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net471"
+        "net48"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\FastReports\\FastReport.Net\\Nugets": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net471": {
+        "net48": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "net471": {
+      "net48": {
         "dependencies": {
           "ACBr.Net.Sat": {
             "target": "Package",
@@ -1830,6 +2377,10 @@
           "SharpCompress": {
             "target": "Package",
             "version": "[0.28.3, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.5, )"
           },
           "iTextSharp-LGPL": {
             "target": "Package",

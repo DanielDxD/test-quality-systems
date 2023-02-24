@@ -1,43 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj": {}
+    "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj": {}
   },
   "projects": {
-    "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj": {
+    "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj",
         "projectName": "QualityDLL",
-        "projectPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\QualityDLL.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "G:\\sistema_quality_curtt\\Prova\\QualityDLL\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\QualityDLL.csproj",
+        "packagesPath": "C:\\Users\\Daniel Lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Lopes\\dn5\\test-quality\\Prova\\QualityDLL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Daniel Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net471"
+          "net48"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\FastReports\\FastReport.Net\\Nugets": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net471": {
+          "net48": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net471": {
+        "net48": {
           "dependencies": {
             "ACBr.Net.Sat": {
               "target": "Package",
@@ -62,6 +57,10 @@
             "SharpCompress": {
               "target": "Package",
               "version": "[0.28.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             },
             "iTextSharp-LGPL": {
               "target": "Package",

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Prova.UtilsGestao;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,6 +53,50 @@ namespace Prova.Controllers
                 return UtilsGestao.UtilsApi.Retorno(cr);
             }
             catch (Exception ex)
+            {
+                return BadRequest(UtilsGestao.UtilsApi.CatchError(ex));
+            }
+        }
+        [Route(""), HttpPost]
+        public async Task<ActionResult<dynamic>> Buscar()
+        { 
+            try
+            {
+                var body = await this.GetBody<Data.ContaPagamento>() ?? throw new Exception("Nenhum parâmetro foi enviado.");
+                Data.ContaPagamento contaPagamento = new Data.ContaPagamento
+                {
+                    descricao = body.descricao,
+                    idEmpresa = body.idEmpresa
+                };
+
+               
+                List<Data.Base> contasPagamento = Utils.Utils.listaDados(body.idEmpresa, contaPagamento, 10, null);
+
+                var grid = new UtilsApi.Grid();
+                var gridCreatd = grid.FillFormComponentFields(contasPagamento.GetType(), false);
+
+                return UtilsGestao.UtilsApi.Retorno(gridCreatd);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(UtilsGestao.UtilsApi.CatchError(ex));
+            }
+        }
+        [Route("{id}"), HttpGet]
+        public ActionResult<dynamic> DetalheContaPagamento([FromRoute] int id)
+        {
+            try
+            {
+                Data.ContaPagamento contaPagamento = new Data.ContaPagamento
+                {
+                    idContaPagamento = id
+                };
+
+                contaPagamento = (Data.ContaPagamento)sr.consultar(contaPagamento);
+
+                return UtilsGestao.UtilsApi.Retorno(contaPagamento);
+            }
+            catch(Exception ex)
             {
                 return BadRequest(UtilsGestao.UtilsApi.CatchError(ex));
             }
